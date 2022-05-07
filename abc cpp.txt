@@ -1,0 +1,42 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int first,second,result;
+    
+    cout << "enter two integers : ";
+    cin >> first>>second;
+    
+    result=first+second;
+    cout<<"sum is "<<result<<endl;
+    
+    result=first-second;
+    cout<<"subtraction is "<<result<<endl;
+    
+     result=first*second;
+    cout<<"multiplication is "<<result<<endl;
+    
+     result=first/second;
+    cout<<"division is "<<result<<endl;
+    
+     result=first%second;
+    cout<<"module is "<<result<<endl;
+    
+    if(first==5)
+    {
+        cout<<"OK"<<endl;
+    }
+    else
+    {
+        cout<<'NOT OK'<<endl;
+    }
+    
+    for(int i=0;i<5;i++)
+    {
+        cout<<"iot"<<endl;
+    }
+
+  return 0;  
+}
